@@ -16,3 +16,15 @@
                 <li><a href="/buku">buku</a></li>
             </ul>
         </div>
+        <h3>kategori</h3>
+        <a href="{{ route('kategori.create') }}" class="tombol">tambah</a>
+        <table>
+            <thead>
+                <tr>
+                    <th>NO</th>
+                    <th>Nama Kategori</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+    </body>
+ </html>   
